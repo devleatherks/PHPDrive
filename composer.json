@@ -1,0 +1,19 @@
+{
+    "name": "devleatherks/phpdrive",
+    "authors": [
+        {
+            "name": "Sergey Kozhedub",
+            "email": "devleatherks@gmail.com",
+            "homepage": "https://tooldev.top",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPDrive\\": "src/"
+        }
+    }
+}
