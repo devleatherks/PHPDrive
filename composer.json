@@ -15,5 +15,19 @@
         "psr-4": {
             "PHPDrive\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "devleatherks/PHPDrive",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/devleatherks/PHPDrive.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
 }
